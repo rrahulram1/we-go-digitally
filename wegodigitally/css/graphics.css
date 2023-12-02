@@ -1,0 +1,14 @@
+
+.schedule-button{
+    width: max-content;
+    height: max-content;
+    padding: 5px 40px;
+    background-color: #1060da;
+    color: white;
+    border-radius:25px;
+    border-width: 0px;
+}
+#content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+}
