@@ -7,7 +7,7 @@ function loadContent(page) {
         })
         .catch(error => console.error('Error loading content:', error));
 }
-loadContent("Home.html")
+loadContent("wegodigitally.html")
 
 let homeNav = document.getElementById("home");
 homeNav.addEventListener("click",function(e){
