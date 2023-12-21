@@ -5,34 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We go Digitally</title>
-    <link rel="stylesheet" href="/foot.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5QS8CTQJ');</script>
-<!-- End Google Tag Manager -->
+
 </head>
 <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@font-face{
+    font-family: myFont;
+    src:url('assets/Raisin_Topping.ttf')
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
     
     .nav-element {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         margin-right:4px;
         font-weight: bold;
+        font-family: "Poppins", sans-serif;
         
       }
-      .nav-element:hover{
+
+      
+    
+
+    
+       .nav-element:hover{
+
+        color: #f9004d;;
+
         background-color: rgb(39, 131, 224);
-        border-radius: 8px;
-      }
+        border-radius: 28px;
+        
+      } 
 
       .footer{
     
-    background-color: rgb(69, 69, 140);
+    background-color: #757a79;
     color: white;
     padding: 20px;
     
@@ -42,41 +57,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     text-decoration: none;
     color: white;
 }
-*{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: 20px;
-}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 25%;
+    right: 5%;
+  }
+
+
+
+
 
 </style>
 <body>
- <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QS8CTQJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
  
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ 
+    <nav class="navbar navbar-expand-lg " style="background-color:  #aeccc6;">
         <div class="container-fluid">
-            <a class="navbar-brand" id="home" name="wegodigitally.html" href=""><img src="/logo crop.png" alt=""></a>
+            <a style="margin-left: 100px;" class="navbar-brand" id="home" name="wegodigitally.html" href=""><img src="public/images/logo crop.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="width: 200px;">
-                <ul class="navbar-nav m-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: end ; margin-right: 100px;">
+                <ul class="navbar-nav ">
+                  
                     <li class="nav-item nav-element">
-                        <a class="nav-link active" id="home" name="wegodigitally.html" aria-current="page" href="">Home</a>
+                        <a  class="nav-link active" id="home"  aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item nav-element">
-                        <a class="nav-link active" id="about" name="about.html" href="#sectionAbout">About</a>
+                        <a class="nav-link active" id="about" name="about.html" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown nav-element">
                         <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                         </a>
                         <ul class="dropdown-menu ">
-                        <li><a class="dropdown-item" id="DigitalMarketing" name="DigitalMarketting.html" href="#sectionDigitalMarketing">Digital Marketing</a></li>
-                            <li><a class="dropdown-item" id="Branding" name="Branding_services.html" href="#sectionBranding">Branding</a></li>
-                            <li><a class="dropdown-item" id="webDevelopment" name="dev.html" href="#sectionWebDesignAndDevelopment">Web Design/Development</a></li>
-                            <li><a class="dropdown-item" id="graphicsAndDesigning" name="graphics.html" href="#sectionGraphics">Graphics And Designing</a></li>
+                        <li><a class="dropdown-item" id="DigitalMarketing" name="DigitalMarketting.html" href="digitalmarketing.html ">Digital Marketing</a></li>
+                            <li><a class="dropdown-item" id="Branding" name="Branding_services.html" href="branding.html ">Branding</a></li>
+                            <li><a class="dropdown-item" id="webDevelopment" name="dev.html" href="websesign.html ">Web Design/Development</a></li>
+                            <li><a class="dropdown-item" id="graphicsAndDesigning" name="graphics.html" href="graphics and designing.html ">Graphics And Designing</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown nav-element">
@@ -84,30 +102,325 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         Contact Us
                         </a>
                         <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" id="bussinessEnquiry" name="bussiness.html" href="#bussiness">Bussiness Enquiry</a></li>
-                            <li><a class="dropdown-item" id="carriersPage" name="carriers.html" href="#carriers">Carriers</a></li>
+                            <li><a class="dropdown-item" id="bussinessEnquiry" name="bussiness.html" href="businessenquiry.html">Bussiness Enquiry</a></li>
+                            <li><a class="dropdown-item" id="carriersPage" name="carriers.html" href="carrier.html">Carriers</a></li>
                         </ul>
                     </li>
                 </ul>
-                <div class="socialmedia" style="padding-right:25px;">
-                    <a href="https://instagram.com/wegodigitally?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr"><svg xmlns=" http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
-                        <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12,C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
-                    </svg></a>
-                    <a href="https://www.facebook.com/wegodigitally?mibextid=9R9pXO"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
-                        <linearGradient id="awSgIinfw5_FS5MLHI~A9a_yGcWL8copNNQ_gr1" x1="6.228" x2="42.077" y1="4.896" y2="43.432" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0d61a9"></stop><stop offset="1" stop-color="#16528c"></stop></linearGradient><path fill="url(#awSgIinfw5_FS5MLHI~A9a_yGcWL8copNNQ_gr1)" d="M42,40c0,1.105-0.895,2-2,2H8c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h32	c1.105,0,2,0.895,2,2V40z"></path><path d="M25,38V27h-4v-6h4v-2.138c0-5.042,2.666-7.818,7.505-7.818c1.995,0,3.077,0.14,3.598,0.208	l0.858,0.111L37,12.224L37,17h-3.635C32.237,17,32,18.378,32,19.535V21h4.723l-0.928,6H32v11H25z" opacity=".05"></path><path d="M25.5,37.5v-11h-4v-5h4v-2.638c0-4.788,2.422-7.318,7.005-7.318c1.971,0,3.03,0.138,3.54,0.204	l0.436,0.057l0.02,0.442V16.5h-3.135c-1.623,0-1.865,1.901-1.865,3.035V21.5h4.64l-0.773,5H31.5v11H25.5z" opacity=".07"></path><path fill="#fff" d="M33.365,16H36v-3.754c-0.492-0.064-1.531-0.203-3.495-0.203c-4.101,0-6.505,2.08-6.505,6.819V22h-4v4	h4v11h5V26h3.938l0.618-4H31v-2.465C31,17.661,31.612,16,33.365,16z"></path>
-                    </svg></a>
-                    <a href="https://youtube.com/@wegodigitally?si=7Dnnz2YP2IkMLjj8"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
-                        <path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"></path><path fill="#FFF" d="M20 31L20 17 32 24z"></path>
-                    </svg></a>
-                    <a href="https://www.linkedin.com/company/we-go-digitally/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
-                        <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
-                    </svg></a>
-                </div>
+
+
+
+
+
             </div>
         </div>
     </nav>
     <main class="container mt-3" id="content">
         <!-- Content will be dynamically loaded here -->
+
+
+
+        <div class="container" id="sectionHome">
+            <div class="row" >
+              <h1 class="text">
+              <h1  style="margin-bottom: 0px;    text-align: center;"> 
+                <b style="font-size:40px; "> WE GO DIGITALLY</b> </h1>  
+              <p id="content" style="padding-left:40px;   text-align: center; margin-top: 0px;  ">Digital Marketing Agency</p>  <br>
+
+              
+              <div class="col-12 col-md-6" style="padding-left: 10px; padding-top:100px; font-size: 10px;">
+               <h5>"We Go Digitally Your Success, Our Strategy."</h5><br>
+              <h5> Where Ideas Meet Impact - We Go Digitally</h5><br>
+              <h5>We Go Digitally : Your Gateway to Digital Brilliance</h5>
+              </div>
+              <div class="col-12 col-md-6">
+                  <!-- home image  -->
+                  <img src="public/images/home2.jpg" style="width:400px; max-height:320px;" alt="">
+                 
+              </div>
+          </h1>
+        
+            <div id="Firstsection">
+              <div class="text-left">
+                <img src="public/images/google-ad.png" style="width: 350px;" alt="">
+              </div>
+              <div class="row mb-2">
+                <h3 style="font-size: 25px;"> Unlock Your Business's Digital Potential with <b> We Go Digitally's</b> Premier Google Ads Services!</h3>
+                
+                <div class="col-12 col-md-7">
+                  <div class="head1">
+                    
+                    <h3 id="top"><b>1.Elevate Your Online Presence</b></h3> 
+                    <p id="content"><span style="padding-left: 40px; "> Drive</span> targeted traffic to your website with our expertly crafted Google Ads campaigns. We specialize in creating compelling ad copies that resonate with your audience,ensuring maximum visibility and engagement.</p>
+                  </div>
+                  <div class="head2">
+                    
+                    <h3 id="top"> <b>2.Laser-Focused Targeting</b></h3>
+                    <p id="content"> <span style="padding-left: 40px;"> Harness</span> the power of precision targeting! Our Google Ads services leverage advanced audience segmentation, demographics, and behavior analysis to put your brand in front of  the right people at the right time, maximizing your ROI.</p>
+                  </div>
+          
+                  <div class="head3">
+                    
+                    <h3 id="top"> <b>3.Results-Driven Strategies</b></h3>
+                    <p id="content"> <span style="padding-left: 40px;"> Unleash</span>  the potential of data-driven decision-making. We Go Digitally doesn't just run ads; we craft strategic campaigns based on in-depth analytics, ensuring every click translates 
+                      into tangible results for your business.</p>
+                  </div>
+                  <div class="head4">
+                    
+                    <h3 id="top"><b>4.Budget Optimization</b></h3>
+                    <p id="content"> <span style="padding-left: 40px;"> Worried</span>  about overspending? Our team excels at optimizing your Google Ads budget, ensuring you get the most out of every dollar. From bid management to ad scheduling, we've got your budget under control.</p>
+                  </div>
+                </div>
+                <div class="col-md-5 d-none d-md-block m-auto">
+                  <img src="public/images/gads2.jpg" style="width: 80% ;margin-left: 80px;" alt="">
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-12 col-md-5 m-auto">
+                    <img src="public/images/gads1.jpg" style="width:100%;" alt="">
+                  </div>
+                  <div class="col-12 col-md-7">
+                    <div class="head5">
+              
+                      <h3 id="top"><b>5.Dynamic Ad Creatives</b></h3>
+                      <p id="content"> <span style="padding-left: 40px;"> Break</span> through the digital noise with visually stunning and impactful ad creatives. Our design experts ensure your brand stands out, driving clicks and conversions while maintaining via cohesive and compelling brand identity.</p>
+                    </div>
+                    <div class="head6">
+                    
+                      <h3  id="top"> <b>6.Constant Monitoring and Optimization </b></h3>
+                      <p id="content"> <span style="padding-left: 40px;">Stay</span> ahead of the competition with our proactive approach. We continuously monitor  campaign  performance tweaking and optimizing in real-time to adapt to market trends and capitalize on emerging opportunities.</p>
+                    </div>
+                    <div class="head7">
+                      
+                      <h3 id="top"><b>7.Transparent Reporting</b></h3>
+                      <p id="content"> <span style="padding-left: 40px;"> Know </span>exactly where your money is going. Our detailed, transparent reports provide insights into campaign  performance allowing you to track your success and understand the value we bring to your business. </p>
+                    </div>
+                  </div> 
+              </div>   
+               <br> <br>
+        
+        
+              <div class="row mb-2" id="secondSection">
+                <h1 id="top"><b>Search Engine 
+                      Optimization & Marketing</b></h1>
+                      <div class="col-12 d-md-none">
+                        <img src="public/images/seo.jpg" style="width: 90%;padding: 10px;" alt="">
+                      </div>   
+                <div class="col-12 col-md-7 text-center"> 
+                    
+        
+                    <p id="content"> <span style="padding-left: 40px;"> In </span> the dynamic landscape of digital marketing, a robust SEO strategy is crucial  for businesses seeking to dominate  search engine  results and capture the attention of their target audience. <b>We Go Digitally</b>, we specialize in providing comprehensive SEO services that propel your brand to the top of search rankings, driving organic traffic and ensuring sustained online success.</p>
+                    <ul id="content" style="text-align: left; margin-left:40px;"> 
+                      <li  style="list-style: square;">Keyword research and analysis.</li>
+                      <li style="list-style: square;">On-page optimization.</li>
+                      <li style="list-style: square;">Off-page optimization and link building.</li>
+                      <li style="list-style: square;">SEO audits and strategy development.</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                  <img src="public/images/seo.jpg" style="width: 90%;padding: 10px; margin-left: 60px; margin-bottom: 60px;" alt="">
+                </div>   
+              </div>
+        
+              <div class="row mb-2">
+                <h1 id="top"><b>Social Media  
+                  Marketing</b></h1> 
+                  <div class="col-12 col-md-6">
+                    <img src="public/images/sm.jpg" style="width: 80%; height: 80%; padding-top:-30px;" alt="">
+                  </div>
+                  <div class="col-12 col-md-6">
+                    
+                      <p id="content"> <span style="padding-left: 40px;"> It's</span> true that social media is a great way to promote your products and grow your audience, but it tends to be a crowded landscape. Luckily, we’ve  <b>We Go Digitally</b> that you got tips to help you make your posts stand out and get the attention they deserve.</p>
+                      <ul id="content">
+                        <li  style="list-style: square;"> Social media strategy development.</li>
+                        <li  style="list-style: square;"> Social media optimisation.</li>
+                        <li  style="list-style: square;"> Social media management. </li>
+                        <li  style="list-style: square;"> Content creation and posting.</li>
+                        <li  style="list-style: square;"> Social media advertising (Facebook, Instagram, LinkedIn, Twitter, etc.)</li>
+                        <li  style="list-style: square;"> Social media analytics and reporting.</li>
+                    </ul>
+                    
+                  </div>
+              </div>
+             
+            <div class="row mb-2" >
+              <h1 id="top"><b>Branding Services</b></h1>
+              <div class="col-12 d-md-none">
+                <img src="public/images/branding.jpg" style="width: 100%; height: 80%; padding: 10px;" alt="">
+                </div>
+                <div class="col-12 col-md-6" >
+                  <p id="content"> <span style="padding-left: 40px;">Welcome</span> <b> We Go Digitally</b> - Your Partner in Powerful Branding!
+                    At We Go Digitally, we understand that in the fast-paced digital landscape, a strong brand is the heartbeat of any successful business. Our comprehensive  branding services are designed to elevate your brand presence, foster customer loyalty, and drive business growth in the digital realm. 
+                    Branding is the process of creating a distinct identity for a business in the minds of your target audience and  the general population. At its core, branding consists  of a company's name and logo,  visual identity design, mission, values, and tone of voice
+                    </p>
+                    <div class="col-12" >
+                      <ul id="content">
+                        <li  style="list-style: square;">  Brand Strategy and Development.</li>
+                        <li  style="list-style: square;">  Logo and Visual Identity.</li>
+                        <li  style="list-style: square;"> Digital Branding.</li>
+                        <li  style="list-style: square;"> Content Creation and Messaging.</li>
+                        <li  style="list-style: square;"> Brand Guidelines.</li>
+                        <li  style="list-style: square;"> Brand Audits and Refresh.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-none d-md-block">
+                    <img src="public/images/branding.jpg" style="width: 100%; height: 80%; padding: 10px;" alt="">
+                  </div>
+            </div>
+            <div class="row mb-2 " >
+              <h1 id="top"><b>Cinematography  And Editing</b></h1>
+                      <div class="col-12 col-md-6" >
+                        <img src="public/images/cine.jpg" alt="" height="300px" width="80%">
+                </div>
+                <div class="col-12 col-md-6">
+                                 <p id="content"> <span style="padding-left: 40px;">Welcome</span> </b> <b>We Go Digitally</b> Elevate  your brand with  our top-notch cinematography and editing services. Our skilled  team transforms concepts into visually stunning stories, ensuring your message  captivates your audience. Explore our portfolio for a glimpse into  the world of compelling visuals we create for our clients. Let's bring your vision to life! <br>
+                          Cinematography is often more focused on technical aspects such as lighting, framing, and camera movement, while editing involves a higher degree of creative decision-making.</p>
+            </div>
+        
+        
+            
+              <div class="row mb-2 " style="padding-top: 100px;"> 
+                <h1  id="top"><b>Web Design/Development</b></h1>
+                <div class="col-12 d-md-none">
+                  <img src="public/images/web design.jpg" width="100%" height="80%" alt="">
+                </div>
+                <div class="col-12 col-md-6" >
+                    <p id="content">
+                    <span style="padding-left: 40px;">Empower</span>
+                  Your Online Presence with <b>We Go Digitally</b> - Crafting Digital Experiences Inspire! In the digital era, your website is often the first interaction customers have with your brand.  At We Go Digitally, we specialize in creating visually stunning and highly functional websites that not only captivate your audience but also drive results. Elevate your online presence  with our expert web development and designing services.
+                  </p> 
+                    <div class="col-12 col-md-6" >
+                      <ul id="content">
+                        <li  style="list-style: square;"> Custom Website Development.</li>
+                        <li  style="list-style: square;">  Responsive Design.</li>
+                        <li  style="list-style: square;">	E-Commerce Solutions.</li>
+                        <li  style="list-style: square;"> CMS (Content Management System) Integration.</li>
+                        <li  style="list-style: square;">  UI/UX Design.</li>
+                        <li  style="list-style: square;">Website Maintenance and Support.</li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                  <img src="public/images/web design.jpg" width="100%" height="80%" alt="">
+                </div>
+                </div>
+            </div>
+           
+        
+            <div class="row mb-2 " >
+              <h1 id="top"><b>Graphics And Designing</b></h1>
+              <div class="col-12 col-md-6" >
+                <img src="public/images/graphics designing.jpg" width="100%" height="80%" alt="">
+                </div>
+                <div class="col-12 col-md-6">
+                  
+                  <p id="content">  <span style="padding-left: 40px;"><b>We Go Digitally:</b></span> Elevate Your Brand with Captivating Design and Dynamic Video Editing. 
+                    At We Go Digitally, we believe that visually appealing content is cornerstone of  successful digital presence. Our design and video editing services are crafted to enhance your brand  aesthetics, engage your audience, and leave a lasting impression. 
+                    Let's dive into the world of creativity together!
+                    Graphic design is a craft where professionals create visual content  to communicate messages. 
+                    </p> 
+                    <ul id="content" >
+                      <li style="list-style: square;">Branding and Logo Design.</li>
+                      <li style="list-style: square;">Print and Digital Collateral.</li> 
+                      <li style="list-style: square;">Social Media Graphics.</li>
+                      <li style="list-style: square;">Promotional Videos.</li>
+                      <li style="list-style: square;">Social Media Clips.</li>
+                      <li style="list-style: square;">Event Highlights.</li> 
+                    </ul>
+                </div>
+        
+              <div class="row"  >
+                <div class="text-center">
+                  <h1 id="top"><b> WHY? WE GO DIGITALLY</b></h1>
+                </div>
+        
+                <div class="col-12 col-md-4 google-ad-card">
+                  <h4 style="text-align: center;"><b>
+                    Strategic Expertise
+                  </b></h4> 
+                  <p id="content" style="margin-top: 20px;">
+                    <span style="padding-left: 40px;">In</span> the context of digital marketing, <b>We Go Digitally</b>  can give strategic 
+                    expertise involves a deep understanding of the digital landscape, consumer behavior, 
+                    and the ability to develop and execute effective marketing strategies that align with business goals.
+                     We Go Digitally is continually evolving, so strategic expertise involves the ability to navigate
+                     this rapidly changing landscape, leverage new opportunities, and stay ahead of the competition growth.
+                  </p>
+              </div>
+              <div class="col-12 col-md-4 google-ad-card">
+                  <h4 style="text-align: center;">
+                      <b>Customized Strategies</b>
+                  </h4>
+                  <p id="content"style="margin-top: 20px;">
+                    <span style="padding-left: 40px;">Customized</span>
+                     strategies in <b>We Go Digitally</b> involve tailoring your approach 
+                    to specific characteristics of your target audience, industry, and business goals.
+                     A one-size-fits-all approach often isn't as effective as a strategy that considers 
+                     the unique aspects of your business and the preferences of your audience. 
+                    Remember that customization requires a deep understanding of your audience and a 
+                    willingness to adapt based on feedback and performance data.
+                  </p>
+              </div>
+              <div class="col-12 col-md-4 google-ad-card">
+                  <h4 style="text-align: center;">
+                     <b>Innovative Solutions</b>
+                  </h4>
+                  <p id="content"style="margin-top: 20px;">
+                    <span style="padding-left: 40px;"><b> We Go Digitally,</b></span>
+                   can involves applying creative and novel approaches to stand
+                       out in a crowded online landscape. innovation is the creative ideas generated by digital
+                        marketers to reach their target audience on various channels. With creative ideas and new
+                         technologies, you will be able to increase sales and generate more leads. 
+                      Implementing innovative solutions in digital marketing requires staying informed about
+                       emerging technologies, consumer trends, and industry developments.
+                  </p>
+              </div>
+               <div class="col-12 col-md-4 google-ad-card">
+                <h4 style="text-align: center;">
+                    <b>Comprehensive Services </b>
+                </h4>
+                <p id="content"style="margin-top: 20px;">
+                   <span style="padding-left: 40px;"><b>We Go Digitally,</b></span> we offer a one-stop solution for all your digital marketing needs. From SEO and social media to web design and analytics, we are provide comprehensive services under one roof.A comprehensive digital marketing approach involves a mix of these services tailored to the specific goals, target audience, and industry of the business. Regular analysis and adjustments are crucial to ensuring the effectiveness of the overall digital marketing strategy.
+                </p>
+            </div>
+             
+              <div class="col-12 col-md-4 google-ad-card">
+                  <h4 style="text-align: center;">
+                      <b>Responsive Customer Support</b>
+                  </h4>
+                  <p id="content"style="margin-top: 20px;">
+                    <span style="padding-left: 40px;">Responsive</span>
+                     customer support is essential in digital marketing to ensure a positive customer
+                    experience, address queries promptly, and build trust with your audience.
+                   <b>We Go Digitally</b> have the 24/7 active team to solve quries of the customers.
+                    Our responsive customer support ensures you have the assistance you need when you need it.
+                     Your satisfaction is our priority.
+                  </p>
+              </div>
+              <div class="col-12 col-md-4 google-ad-card">
+                  <h4 style="text-align: center;">
+                    <b>Experienced Team</b>
+                  </h4>
+                  <p id="content" style="margin-top: 20px; text-align: center;">
+                    <span style="padding-left: 40px;">Building</span>
+                     an experienced team in digital marketing is crucial for the success of your online 
+                    initiatives. Putting together an effective digital marketing team might seem like a tall order. 
+                    In fact, many times the difference between a digital marketing success and failure is having the 
+                    right people on your side. Here  <b>We Go Digitally </b> have experienced team and our professionals
+                    bring a wealth of knowledge in digital marketing, ensuring your campaigns are in capable hands.
+                  </p>
+              </div>
+             
+              
+                </div>
+              </div>
+            </div>  
+          </div>
+
+
+
+
+
     </main>
 
 
@@ -159,32 +472,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
         <div class="copyright" style="text-align: center; color: white; font-size: 20px;"> <br>
-          <p>  <span style="color: rgb(214, 203, 203);">&copy; 2023</span>&nbsp;-&nbsp;We Go Digitally-Digital Marketing Agency</p>
+          <!-- <p>  <span style="color: rgb(214, 203, 203);">&copy; 2023</span>&nbsp;-&nbsp;We Go Digitally-Digital Marketing Agency</p> -->
+
+          <p style="font-size: 14px;">&copy;2023 <span  style="font-size: 14px;">We Go Digitally-Digital Marketing Agency</span></p>
+
         </div>
     </div>
 </footer>
   
   
-  <div class="whatsapp-icon">
+  <div >
     <a class="hidden-xs"
         href="https://web.whatsapp.com/send?phone=8143551923&amp;text=Hi,%20Please%20send%20a%20best%20quote%20for%20Construction">
-        <img src="/wtslogo.png " style="width: 80px; margin-bottom:-200px;"></a>
+        <img class="whatsapp-icon" src="public/images/wtslogo.png" style="width: 80px; "></a>
     <a class="visible-xs hidden-lg hidden-md hidden-sm"
         href="whatsapp://send?phone=8143551923&text=Hii, ">     
   </div>
   
-    <script src="app.js"></script>
+    <script>
+      async function ping(){
+        const data = await fetch(`https://temp-repo-ncv0.onrender.com`)
+        console.log(data.status)
+      }
+      ping()
+    </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
 

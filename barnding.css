@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+    font-size: 1rem ;
+    color: #212529;
+    background-color: #fff;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+ .head-left{
+    width:40% ;
+    line-break: strict;
+}
+.head-left h1{
+    font-size: 60px;
+}
+.head-right{
+    width: 20%;
+    background-color: rgba(139, 139, 139, 0.925);
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px 2px rgb(203, 209, 209);
+}
+.head-right ul li a{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    line-height: 40px;
+}
+.head-right ul li {
+    list-style-type:disc;
+}
+.head-right h4{
+    text-align: center;
+    color: white;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.content .text p {
+    color: gray;
+    width:500px;
+    padding-top: 10px;
+}
+h3{
+    font-size: 25px;
+}
+button{
+    background-color: #22467d;
+    color:white;
+    padding: 12px 48px;
+    margin: 0;
+    border: 0;
+    border-radius: 20px;
+}
+.content .btn{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.content img{
+    width: 400px;
+    height: 270px;
+    margin-top: 30px;
+}
+
+h1,h2 {
+    text-align: center;
+}
+#content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+}
+.mb-2 a{
+    width: max-content;
+    height: max-content;
+    padding: 15px 40px;
+    background-color: #1060da;
+    color: white;
+    border-radius: 25px;
+    border-width: 0px;
+    text-decoration: none;
+}
+.swo-points{
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
