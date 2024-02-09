@@ -340,7 +340,7 @@ input[type="submit"]:hover {
               const service = document.getElementById("industry").value;
               const message = document.getElementById("message").value;
               const formData = { name, email, number, designation, companyname, service, message };
-              fetch('https://mail-api-c5h6.onrender.com/api/contact', {
+              fetch('https://mail-sender-api/', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
